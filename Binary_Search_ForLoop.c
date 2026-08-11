@@ -13,7 +13,7 @@ int main()
 	
 	int find = 0;
 	
-	printf("enter 5 numbers sorted(in assending order) \n");
+	printf("enter 5 numbers sorted \n");
 	for(i=0 ; i<n ; i++)
 	{
 		scanf("%d",&arr[i]);
@@ -42,7 +42,7 @@ int main()
 	
 	if (find == 1)
 	{
-		printf("number %d found at index %d",key,arr[mid]);
+		printf("number %d found at index %d",key,mid);
 	}
 	else
 	{
